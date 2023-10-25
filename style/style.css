@@ -1,0 +1,22 @@
+
+
+.alignLeft
+{
+    display: flex;
+    justify-content: right;
+}
+.centerMe
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.centerBottom
+{
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
