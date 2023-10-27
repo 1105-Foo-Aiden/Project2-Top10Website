@@ -20,3 +20,8 @@
     right: 0;
     left: 0;
 }
+p, div
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
