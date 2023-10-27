@@ -27,13 +27,12 @@ p, div
 
 .header{
     display: grid; 
-    grid-template-columns: 1% 15% 6% 15% 6% 15%;
+    grid-template-columns: 1% 15% 6% 15% 6% 15% 6%;
     background-color: rgb(78, 78, 78); 
     height: 136px;
 }
 
 .headerButton{
-    font-family: Arial, Helvetica, sans-serif;
     width: 245px;
     height: 80px;
     grid-row-start: 2; 
@@ -41,7 +40,16 @@ p, div
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: -5px;
     background-color: lightgrey; 
-    font-weight: bolder;
-    font-size: larger;
+}
+
+.playlistButton
+{
+    width: 450px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
