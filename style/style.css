@@ -42,7 +42,7 @@ p, div
     text-align: center;
     background-color: lightgrey; 
     font-weight: bolder;
-    font-size: larger;
+    font-size: 40px;
 }
 
 .playlistButton{
