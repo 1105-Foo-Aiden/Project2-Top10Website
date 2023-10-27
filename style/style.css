@@ -42,14 +42,19 @@ p, div
     text-align: center;
     margin-left: -5px;
     background-color: lightgrey; 
+    font-weight: bolder;
+    font-size: 40px;
 }
 
-.playlistButton
-{
-    width: 450px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
+.playlistButton{
+    width: 550px;
+    height: 80px;
+    grid-row-start: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgrey; 
+    font-weight: bolder;
+    font-size: larger;
 }
