@@ -47,7 +47,7 @@ p, div
 }
 
 .playlistButton{
-    width: 550px;
+    width: 450px;
     height: 80px;
     grid-row-start: 2; 
     display: flex;
@@ -58,3 +58,16 @@ p, div
     font-weight: bolder;
     font-size: larger;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+  width: 100px;
+  height: 320px;
+}
+
